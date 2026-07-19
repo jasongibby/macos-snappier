@@ -13,6 +13,7 @@ defaults write com.apple.dock launchanim -bool false
 defaults write com.apple.dock mineffect -string scale
 defaults write com.apple.dock expose-animation-duration -float 0.1
 defaults write com.apple.dock mru-spaces -bool false
+defaults write com.apple.dock no-bouncing -bool true
 
 # Finder and Mail
 defaults write com.apple.finder DisableAllAnimations -bool true
