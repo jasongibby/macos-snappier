@@ -21,8 +21,9 @@ defaults write com.apple.Mail DisableSendAnimations -bool true
 defaults write com.apple.Mail DisableReplyAnimations -bool true
 
 # Keyboard
-defaults write NSGlobalDomain KeyRepeat -int 1
-defaults write NSGlobalDomain InitialKeyRepeat -int 10
+defaults write NSGlobalDomain KeyRepeat -int 2
+# Leave a little more time before a held key starts repeating.
+defaults write NSGlobalDomain InitialKeyRepeat -int 40
 
 # Apply settings for running apps.
 killall Dock 2>/dev/null || true
