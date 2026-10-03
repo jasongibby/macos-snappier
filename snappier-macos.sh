@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # AppKit window and scroll behavior
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false

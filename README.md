@@ -11,6 +11,8 @@ chmod +x snappier-macos.sh
 
 The script restarts Dock and Finder so most changes take effect right away. Log out and back in if a global setting does not stick immediately.
 
+If a setting cannot be written, the script stops before applying further changes. Settings already written remain in place.
+
 These are personal preferences, not a benchmark. Read the script before running it and change anything you do not want.
 
 ## Optional: reduce Spotlight indexing
