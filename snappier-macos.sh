@@ -5,6 +5,7 @@ set -e
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 defaults write NSGlobalDomain NSScrollAnimationEnabled -bool false
 defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+defaults write NSGlobalDomain NSConvolutionOverride1 -float 10
 
 # Dock
 defaults write com.apple.dock autohide -bool true
